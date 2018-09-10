@@ -1,0 +1,29 @@
+{
+  "name": "backend-passei-direto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairorudas/api-passei-direto.git"
+  },
+  "keywords": [],
+  "author": "jairorudas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jairorudas/api-passei-direto/issues"
+  },
+  "homepage": "https://github.com/jairorudas/api-passei-direto#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
